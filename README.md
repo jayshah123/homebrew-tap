@@ -13,14 +13,17 @@ brew tap jayshah123/tap
 | Formula | Description |
 |---------|-------------|
 | `mitmproxy-controller` | System tray controller for mitmproxy |
+| `logviewer` | ImGui + libuv live log tailer with multi-tab Filter/Highlight views |
 
 ## Usage
 
 ```bash
 # Install
 brew install jayshah123/tap/mitmproxy-controller
+brew install jayshah123/tap/logviewer
 
 # Or after tapping
 brew tap jayshah123/tap
 brew install mitmproxy-controller
+brew install logviewer
 ```
