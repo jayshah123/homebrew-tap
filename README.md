@@ -31,11 +31,13 @@ brew install logviewer
 ### `logviewer`
 
 Launches an ImGui window for tailing a log file with multiple Filter /
-Highlight tabs over a single shared source buffer.
+Highlight tabs over a single shared source buffer. The latest published
+release is `0.1.1`.
 
 ```bash
 brew install jayshah123/tap/logviewer
 logviewer
+logviewer /path/to/app.log
 ```
 
 Inside the app:
