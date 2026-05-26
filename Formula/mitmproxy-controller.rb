@@ -16,6 +16,6 @@ class MitmproxyController < Formula
   end
 
   test do
-    assert_predicate bin/"mitmproxy-controller", :exist?
+    assert_path_exists bin/"mitmproxy-controller"
   end
 end
